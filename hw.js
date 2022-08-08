@@ -25,15 +25,3 @@
 //9:
 //Professor Plum.  Let murderer in a lower level and not been called maybe? Not sure as im assuming as its the last qs its the hardest and probably more complicated than ive said.
 
-let murderer = 'Professor Plum';
-
-if (murderer === 'Professor Plum') {
-  let murderer = 'Mrs. Peacock';
-}
-
-const declareMurderer = function() {
-  return `The murderer is ${murderer}.`;
-}
-
-const verdict = declareMurderer();
-console.log(verdict);
